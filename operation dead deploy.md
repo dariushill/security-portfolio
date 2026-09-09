@@ -19,22 +19,23 @@ Live multi-user Azure training tenant, Reader access.
 - I logged in and looked at the resource groups to see if anything stood
   out. Resource group (testdeploy123) stood out compared to the other
   resource groups naming conventions.
-
-<img src="./media/image1.png" style="width:6.5in;height:0.20764in" />
+  
+<img width="1013" height="69" alt="image" src="https://github.com/user-attachments/assets/2ff41791-5e22-4091-8106-a671ae401d98" />
 
 - Inside resource group testdeploy123 only one resource created was a
   storage account.
+  
+<img width="1013" height="125" alt="image" src="https://github.com/user-attachments/assets/f1dc628e-e9ac-4aa7-b717-ef3fa54fdcc9" />
 
-<img src="./media/image2.png" style="width:6.5in;height:0.57986in" />
 
 - Inside the resource, the owner of the resource created tags.
 
-<img src="./media/image3.png"
-style="width:5.57369in;height:0.30213in" />
+<img width="874" height="83" alt="image" src="https://github.com/user-attachments/assets/21ab1a1c-4068-424c-9a26-a70c755b26b3" />
+
 
 - Next, I needed to figure out the deployment that created the resource.
 
-<img src="./media/image4.png" style="width:6.5in;height:0.37153in" />
+<img width="1013" height="94" alt="image" src="https://github.com/user-attachments/assets/d6c4dbca-1219-49f4-b813-ad7d42bfd2e0" />
 
 - I needed to figure out how the resource group and resource were
   created when there is a policy in place for resource group naming
@@ -44,7 +45,7 @@ style="width:5.57369in;height:0.30213in" />
   of not allowing the user to create the resource after violating the
   policy, it flagged the resource group as non-compliant.
 
-<img src="./media/image5.png" style="width:6.5in;height:1.47986in" />
+<img width="1013" height="260" alt="image" src="https://github.com/user-attachments/assets/c053f207-f463-4206-897b-0e6dcc6d91ad" />
 
 \## What broke / what surprised me
 
