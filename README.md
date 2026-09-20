@@ -15,7 +15,7 @@ Contact: darius_hill45@yahoo.com · [LinkedIn URL]: www.linkedin.com/in/dariushi
 | # | Title | Focus | Write-up |
 |---|-------|-------|----------|
 | 1 | Operation Dead Deploy | Governance forensics, deployment audit trail | [Write-Up](https://github.com/dariushill/security-portfolio/blob/main/operation%20dead%20deploy.md) |
-| 2 | The Stolen Identity | App registration attack kill chain (Entra ID) | coming, week 2 |
+| 2 | The Stolen Identity | App registration attack kill chain (Entra ID) | [Write-Up](https://github.com/dariushill/security-portfolio/blob/main/THE%20STOLEN%20IDENTITY.md) |
 | 3 | Privilege Audit | RBAC and least privilege | coming, week 3 |
 | 4 | Spin Up and Lock Down | Compute attack surface | coming, week 4 |
 | 5 | Network the Operative | Network segmentation | coming, week 5 |
