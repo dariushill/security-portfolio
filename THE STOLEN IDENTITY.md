@@ -29,7 +29,7 @@ used that information to breach the company data.
     app registration carries a internal notes property under branding
     and property inside Azure portal.
 
-> <img src="./media/image1.png" style="width:6.5in;height:4.06597in" />
+<img width="975" height="610" alt="image" src="https://github.com/user-attachments/assets/72d6df61-ee37-4b67-93f5-a2f25dfe70ca" />
 
 Escalate:
 
@@ -45,7 +45,7 @@ standard to highly privileged granting access to the app directory
     the secret that the secret created has expired 12/31/209. It shows
     that the bad actor is preparing to stay for a long time.
 
-<img src="./media/image2.png" style="width:6.5in;height:2.89306in" />
+<img width="975" height="434" alt="image" src="https://github.com/user-attachments/assets/5ebe0537-b63b-4e88-b63b-326848e5c355" />
 
 Pivot:
 
@@ -60,12 +60,12 @@ it the Owner of the Mad-Hat-Legacy-Sync-Service app. Looking at the API
 permissions for the Mad-Hat-Legacy-Sync-Service app, the permissions
 were granted with admin consent. This also give me an idea of the
 potential blast radius of the attack.
-<img src="./media/image3.png" style="width:6.5in;height:2.97917in" />
+<img width="975" height="447" alt="image" src="https://github.com/user-attachments/assets/396607c5-54b6-4403-ac01-0a1b7078d653" />
 
 3.  I investigated the suspicious app for any notes inside the notes
     field in branding and properties blade.
 
-<img src="./media/image4.png" style="width:6.5in;height:4.01111in" />
+<img width="975" height="602" alt="image" src="https://github.com/user-attachments/assets/16da1e50-7130-4b62-b80b-51a124d72def" />
 
 Persistence:
 
@@ -79,7 +79,7 @@ apps are allowed to request permission to call my app.
 4.  I went inside the legacy app and Open Expose an API blade and see
     the permission that the bad actor created.
 
-<img src="./media/image5.png" style="width:6.5in;height:3.64028in" />
+<img width="975" height="546" alt="image" src="https://github.com/user-attachments/assets/0e551318-f132-4cd9-931c-1a5506bf14e8" />
 
 The Loot:
 
@@ -91,7 +91,7 @@ address.
 
 5.  
 
-<img src="./media/image6.png" style="width:6.5in;height:3.44236in" />
+<img width="975" height="516" alt="image" src="https://github.com/user-attachments/assets/754cb064-8bb8-4d24-a5aa-fe7ee143eb4e" />
 
 \## What broke / what surprised me
 
