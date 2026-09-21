@@ -7,7 +7,7 @@ Documented cloud security investigations, built in a live Azure tenant
 
 Target role: SOC Analyst / Security Analyst
 Currently: Metrologist | Charleston,SC
-Contact: darius_hill45@yahoo.com · [LinkedIn URL]: www.linkedin.com/in/dariushill45
+Contact: darius_hill@outlook.com · [LinkedIn URL]: www.linkedin.com/in/dariushill45
 
 
 
