@@ -1,6 +1,6 @@
 THE STOLEN IDENTITY
 
-\## Scenario
+# Scenario
 
 Sometime in the last 24 hours, someone got access into the Mad Hat Labs
 tenant. They didn't kick down any doors using any zero-day exploits on
@@ -9,11 +9,11 @@ about it. No alarms were tripped. The Mad Hat Labs security team were
 NOT notified of any MALFEASANCE. The logs just show a series of
 perfectly normal sign-ins.
 
-\## Environment
+# Environment
 
 live multi-user Azure training tenant, Reader access.
 
-\## Investigation
+# Investigation
 
 Entry:
 
@@ -138,7 +138,7 @@ Recommendations:
     employees, unused service principles, and unknown applications are
     removed from ownership roles.
 
-\## What I learned
+# What I learned
 
 1.  How attackers can abuse OAuth. An attacker doesn’t always need to
     steal a user password or log in directly as that user. If a user
