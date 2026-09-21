@@ -1,6 +1,6 @@
-\# \[Title: OPERATION DEAD DEPLOY\]
+ \[Title: OPERATION DEAD DEPLOY\]
 
-\## Scenario
+# Scenario
 
 A junior intern at Mad Hat Labs created a test environment for an
 experiment that wouldn't be presented to leadership. Intern wasn't
@@ -10,11 +10,11 @@ the weekend. I came in on Monday morning and found the environment the
 intern created. I need to access the damage, identify what governance
 failed, and document the evidence.
 
-\## Environment
+# Environment
 
 Live multi-user Azure training tenant, Reader access.
 
-\## Investigation
+# Investigation
 
 - I logged in and looked at the resource groups to see if anything stood
   out. Resource group (testdeploy123) stood out compared to the other
@@ -47,7 +47,7 @@ Live multi-user Azure training tenant, Reader access.
 
 <img width="1013" height="260" alt="image" src="https://github.com/user-attachments/assets/c053f207-f463-4206-897b-0e6dcc6d91ad" />
 
-\## What broke / what surprised me
+# What broke / what surprised me
 
 I encounter issues at several points in these investigations. First
 issue I encountered was the resource group naming convention. When I did
@@ -69,7 +69,7 @@ documents and discovered that audit doesn’t stop the resource group or
 resource from being created but instead flagged it as non-conformant.
 This is the reason how the user was able to create the resource group.
 
-\## Findings and recommendations
+# Findings and recommendations
 
 - Update naming convention policy effect type from “audit” to “deny”
 
@@ -79,7 +79,7 @@ This is the reason how the user was able to create the resource group.
 - Speak with the administrator who gave the intern temporary contributor
   access.
 
-\## What I learned
+# What I learned
 
 - In this investigation I learn about resource hierarchy (management
   group, subscription, resource group, and resources) and naming
