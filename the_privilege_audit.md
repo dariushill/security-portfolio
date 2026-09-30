@@ -19,7 +19,7 @@ live multi-user Azure training tenant, Reader access.
 1.  By downloading the CSV file with every user access listed, I needed
     to determine if anybody had more access than they should have.
 
-<img src="media/image1.png" style="width:6.5in;height:2.02986in" />
+<img width="975" height="304" alt="image" src="https://github.com/user-attachments/assets/42ae6e60-ad6d-4482-9a9d-7d403e085e8b" />
 
 **Finding 2: Azure CLI**
 
@@ -29,36 +29,37 @@ live multi-user Azure training tenant, Reader access.
     it easier to identify unusual or orphaned role assignments that
     required further investigation
 
-3.  <img src="media/image2.png" style="width:6.5in;height:1.24097in" />
+<img width="975" height="186" alt="image" src="https://github.com/user-attachments/assets/a23f826e-3d15-4572-96ba-02ac1ea1cba8" />
 
 **Finding 3: Azure Resource Graph**
 
-4.  I used Azure Resource Graph and KQL to search for the orphaned
+3.  I used Azure Resource Graph and KQL to search for the orphaned
     principal ID across Azure role assignments. The query allowed me to
     identify the scopes where the principle still had permissions. The
     is help me confirm whether orphaned access existed beyond the
     original resource group.
 
-<img src="media/image3.png" style="width:6.5in;height:4.62083in" />
+<img width="975" height="693" alt="image" src="https://github.com/user-attachments/assets/b30590ef-4879-45a6-9f3f-d36092df7817" />
 
 **Finding 4: Privileged Identity Management (PIM)**
 
-5.  I needed to determine which identities currently held active
+4.  I needed to determine which identities currently held active
     privilege access and which were only eligible to activate privilege
     roles. Using PIM, I reviewed the resource group’s roles assignments
     and exported a report showing both active and eligible assignments.
 
-> <img src="media/image4.png" style="width:6.5in;height:2.55347in" />
->
+<img width="975" height="383" alt="image" src="https://github.com/user-attachments/assets/0a1422a2-8266-4964-9dd5-815ee97d735a" />
+
 > **Finding 5: Over-provisioned Account**
 
-6.  I identified that an over-previsioned account had been assigned the
+5.  I identified that an over-previsioned account had been assigned the
     Owner role within a resource group that was not visible with my
     current access. I activated an eligible Azure role through PIM to
     obtain temporary authorized access, then exported the resource
     group’s role assignments and identified the account holding
     excessive
-    privileges.<img src="media/image5.png" style="width:6.908in;height:1.44507in" />
+    
+<img width="1036" height="217" alt="image" src="https://github.com/user-attachments/assets/c3a32633-7ebd-4223-81aa-61eb9b96769c" />
 
 \# What broke / what surprised me
 
